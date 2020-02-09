@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+	<title>中华好年货采购节</title>
+	<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.2&key=44a13989936c34768eb34eca8071d538"></script>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/bgm.js"></script>
+	<!-- <script>
+		(function () {
+			var deviceWidth = document.documentElement.clientWidth;
+			if(deviceWidth > 640) deviceWidth = 640;
+			document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+		})()
+	</script> -->
+	<link href="https://cdn.bootcss.com/Swiper/4.0.0/css/swiper.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="js/animate.min.css">
+	<link rel="stylesheet" href="styles/index.css">
+	<script src="https://cdn.bootcss.com/Swiper/4.0.0/js/swiper.min.js"></script>
+	<script src="js/swiper.animate1.0.2.min.js "></script>
+</head>
+<body>
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<audio autoplay="autoplay" loop preload="preload" id="bgm">
+				<source src="audio/Love home~3.mp3">
+			</audio>
+			<div class="bgm_ico bgm_ico_ani"></div>
+			<div class="swiper-slide p1">
+				<div class="flag ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/flag.png"></div>
+				<div class="logo ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.8s" swiper-animate-delay="2s"><img src="images/p1-logo.png"></div>
+				<div class="p1_title ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="1s"><img src="images/p1-title.png"></div>
+				<div class="p1_title_fu ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="1.5s"><img src="images/p1-title-fu.png"></div>
+				<div class="p1_bottom_logo ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p1-bottom-logo.png"></div>
+				<div class="p1_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p1-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<div class="swiper-slide p2">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<div class="p2_title ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s"><img src="images/p2-title.png"></div>
+				<div class="p2_content ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"><img src="images/p2-content.png"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<div class="swiper-slide p3">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<div class="p3_content_top ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p3-content-top.png"></div>
+				<div class="p3_content_middle ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p3-content-middle.png"></div>
+				<div class="p3_content_bottom ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"><img src="images/p3-content-bottom.png"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<div class="swiper-slide p4">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<div class="p4_content_top ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p4-content-top.png"></div>
+				<div class="p4_content_bottom ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p4-content-bottom.png"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<div class="swiper-slide p5">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<div class="p5_content_top ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p5-content-top.png"></div>
+				<div class="p5_content_middle ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p5-content-middle.png"></div>
+				<div class="p5_content_bottom ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"><img src="images/p5-content-bottom.png"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<div class="swiper-slide p6_1">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<div class="p6_1_title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p6-1-title.png"></div>
+				<div class="p6_1_img ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p6-1-img.png"></div>
+				<div class="p6_1_content ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p6-1-content.png"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<div class="swiper-slide p6_2">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<div class="p6_2_title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p6-1-title.png"></div>
+				<div class="p6_2_img ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p6-2-img.png"></div>
+				<div class="p6_2_content ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p6-2-content.png"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<div class="swiper-slide p6_3">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<div class="p6_3_title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p6-1-title.png"></div>
+				<div class="p6_3_img ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p6-3-img.png"></div>
+				<div class="p6_3_content ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p6-3-content.png"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<div class="swiper-slide p6">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<div class="p6_title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p6-title.png"></div>
+				<div class="p6_content ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p6-content.png"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<div class="swiper-slide p7">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<div class="p7_title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p6-title.png"></div>
+				<div class="p7_content ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p7-content.png"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<div class="swiper-slide p8">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<div class="p8_title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p8-title.png"></div>
+				<div class="p8_title_fu ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1.2s"><img src="images/p8-title-fu.png"></div>
+				<div class="p8_content ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.6s"><img src="images/p8-content.png"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<div class="swiper-slide p9">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<div class="p9_title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p8-title.png"></div>
+				<div class="p9_title_fu ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1.2s"><img src="images/p8-title-fu.png"></div>
+				<div class="p9_content ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.6s"><img src="images/p9-content.png"></div>
+				<div class="p9_fair ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.6s"><img src="images/p9-fair.png"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<div class="swiper-slide p10">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<div class="p10_title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p10-title.png"></div>
+				<div class="p10_content ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p10-content.png"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<div class="swiper-slide p11">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<div class="p11_title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p10-title.png"></div>
+				<div class="p11_content ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p11-content.png"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<div class="swiper-slide p12">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<div class="p12_title ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/p10-title.png"></div>
+				<div class="p12_content_top ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1s"><img src="images/p12-content-top.png"></div>
+				<div class="p12_content_bottom ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"><img src="images/p12-content-bottom.png"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div>
+			<!-- <div class="swiper-slide address">
+				<div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div>
+				<div class="address_title ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><img src="images/address.png"></div>
+				<div class="address_content ani" id="amap" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"></div>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+				<div class="arrow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="3s">
+	                <span></span>
+	            </div>
+			</div> -->
+			<div class="swiper-slide p13">
+				<!-- <div class="red_cloth_top ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-top.png"></div> -->
+				<form action="#" class="p13_form ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+					<input type="text" id="name" placeholder="请输入您的姓名">
+					<input type="text" id="phone" placeholder="请输入您的电话">
+					<input type="text" id="company" placeholder="请输入您的公司名称">
+					<textarea id="remark" cols="20" rows="10" placeholder="请输入您要备注的情况,如:报名的类型(冠名商,赞助商,参展商,路演企业),提供赞助的商品等等"></textarea>
+					<button class="submit">报名提交</button>
+					<div id="message"></div>
+				</form>
+				<div class="red_cloth_bottom ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0s"><img src="images/red-cloth-bottom.png"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/index.js"></script>
+</body>
+</html>

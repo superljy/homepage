@@ -1,0 +1,91 @@
+/* reset start */
+html,body,div,h1,h2,h3,h4,h5,h6,a,img,span,ul,ol,li,p,nav,section,header,footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "微软雅黑";
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+}
+
+img{
+    pointer-events: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+a,a:hover,a:focus,a:visited,a:link{
+    text-decoration: none;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+/* reset end */
+
+.container{
+    width:100%;
+    height:100vh;
+    position: relative;
+}
+
+.container>img{
+    width:100%;
+    height:100%;
+}
+
+.container .title{
+    width:100%;
+    height:11vh;
+    padding:0.29rem;
+    background: url("../images/title.png") no-repeat;
+    background-size:100% 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+}
+.title div{
+    /*height:100%;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right:1px solid #a95eae;
+}
+.title div:last-child{
+    border-right: 0px;
+}
+
+.title .main-content,.title .voucher100{
+    width:50%;
+}
+.title .main-content>img{
+    width:1.32rem;
+}
+.title .voucher100>img{
+    width:1.65rem;
+}
+
+.container .btn{
+    position: absolute;
+    left:50%;
+    margin-left: -2.42rem;
+    bottom:4.9vh;
+}
+.container .btn .back{
+    width:4.84rem;
+    height:7vh;
+    background: url("../images/btn_1.png") no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 2vh;
+}
+.container .btn .check{
+    width:4.63rem;
+    height:7vh;
+    background: url("../images/btn_0.png") no-repeat;
+    background-size: 100% 100%;
+    margin:0 auto;
+}

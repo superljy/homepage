@@ -1,0 +1,1 @@
+$(function(){setTimeout(function(){$(window).scrollTop(1)},0),document.addEventListener("WeixinJSBridgeReady",function(){WeixinJSBridge.invoke("getNetworkType",{},function(e){bgm.play()})},!1)});

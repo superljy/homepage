@@ -1,0 +1,343 @@
+/* reset start */
+html,body,div,h1,h2,h3,h4,h5,h6,a,img,span,ul,ol,li,p,nav,section,header,footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #298959;
+}
+
+ul,ol{
+    list-style: none;
+}
+/* reset end */
+
+.container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container::after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+}
+/* header start */
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #494949;
+    position: fixed;
+    z-index: 5;
+    opacity: .8;
+}
+
+/* header .logo{
+     height: 60px;
+     margin-left: 20px;
+}
+
+header .logo img{
+    height: 100%;
+} */
+
+header ul.navbar{
+    float: right;
+    height: 100%;
+    padding: 10px;
+}
+
+header ul.navbar li{
+    float: left;
+    height: 40px;
+    line-height: 20px;
+    margin-right: 50px;
+    border: 1px solid #c4e0ee;
+    border-radius: 5px;
+}
+
+header ul.navbar li a{
+    display: inline-block;
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+header ul.navbar li:hover{
+    background-color: #298959;
+}
+
+header ul.navbar li:hover a{
+    color: #fff;
+}
+
+header ul.navbar .active{
+    background-color: #298959;
+    border-radius: 5px;
+}
+
+header ul.navbar .active a{
+    color: #fff;
+}
+
+header .nav-icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 52%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header .nav-icon .icon-bar{
+    width: 20px;
+    height: 3px;
+    background: #fff;
+    margin: 5px auto
+}
+ 
+@media (max-width: 991px) {
+    header{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    header ul.navbar{
+        display: none;
+    }
+    header .nav-icon{
+        position: static;
+        margin: 15px;
+    }
+}
+
+/* header end */
+
+/* left side start */
+.lSide{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 50%;
+    background: url("../img/pic02.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    overflow: hidden;
+}
+
+.lSide-cover{
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.3);
+}
+
+.lSide-contact{
+    width: 100%;
+    background: #000;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    padding: 20px;
+    display: none;
+    overflow: hidden;
+}
+
+.lSide-contact ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lSide-contact ul li{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-size: 1.2em;
+    border-bottom: 1px solid rgba(221, 221, 221, .6);
+}
+
+.lSide-contact ul li:first-child{
+    font-size: 1.8em;
+    font-weight: bold;
+    border-bottom: 0;
+}
+
+.lSide-contact ul li:last-child a{
+    text-decoration: underline;
+}
+
+.lSide-contact .light{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background: linear-gradient(-90deg,rgba(255,255,255,0),rgba(255, 255, 255, .5),rgba(255, 255, 255, 0));
+    background: -webkit-linear-gradient(-90deg,rgba(255,255,255,0),rgba(255, 255, 255, .5),rgba(255, 255, 255, 0));
+    background: -moz-linear-gradient(-90deg,rgba(255,255,255,0),rgba(255, 255, 255, .5),rgba(255, 255, 255, 0));
+    background: -o-linear-gradient(-90deg,rgba(255,255,255,0),rgba(255, 255, 255, .5),rgba(255, 255, 255, 0));
+    background: -ms-linear-gradient(-90deg,rgba(255,255,255,0),rgba(255, 255, 255, .5),rgba(255, 255, 255, 0));
+    transform: skew(-45deg);
+    -webkit-transform: skew(-45deg);
+    -moz-transform: skew(-45deg);
+    -o-transform: skew(-45deg);
+    -ms-transform: skew(-45deg);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    animation: light 5s linear infinite;
+    -webkit-animation: light 5s linear infinite;
+    -moz-animation: light 5s linear infinite;
+    -ms-animation: light 5s linear infinite;
+    -o-animation: light 5s linear infinite;
+}
+
+@keyframes light{
+    0{
+        left: -120%;
+    }
+    15%{
+        left: -85%;
+    }
+    30%{
+        left: -50%;
+    }
+    45%{
+        left: -15%;
+    }
+    60%{
+        left: 20%;
+    }
+    75%{
+        left: 55%;
+    }
+    90%{
+        left: 90%;
+    }
+    100%{
+        left: 120%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .lSide-contact{
+        background: #494949;
+        opacity: 1;
+    }
+}
+/* left side end */
+
+/* right side start */
+.rSide{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+    /* background: #b1c7dc; */
+    /* overflow-x: hidden;
+    overflow-y: auto; */
+    overflow: auto;
+}
+
+.rSide .rSide-content{
+    width: 80%;
+    height: 100%;
+    padding: 80px 20px 20px;
+    margin: 0 auto;
+}
+
+.rSide .rSide-content h2{
+    margin: 30px 0 10px 10px;
+    color: #333;
+    display: none;
+}
+
+.rSide .skill{
+    width: 100%;
+    position: relative;
+    display: none;
+}
+
+.rSide .skill::after{
+    display: block;
+    content: "";
+    clear: both;
+    overflow: hidden;
+    height: 0;
+}
+
+.rSide .skill .skill-item{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.rSide .skill .skill-item::after{
+    display: block;
+    content: "";
+    clear: both;
+    overflow: hidden;
+    height: 0;
+}
+
+.rSide .skill .skill-item .skill-img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 0 20px 20px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.rSide .skill .skill-item .skill-img img{
+    width: 100%;
+    padding: 5px;
+}
+
+.rSide .skill .skill-item h3{
+    margin-bottom: 10px;
+}
+
+.rSide .skill .skill-item h3,.rSide .skill .skill-item p{
+    color: #555;
+}
+
+@media (max-width: 991px){
+    .lSide{
+        position: static;
+    }
+    .lSide-cover{
+        display: none;
+    }
+    .rSide{
+        width: 100%;
+        position: static;
+    }
+}
+
+/* right side end */

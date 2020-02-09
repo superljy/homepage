@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>Cake'shop</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">DFOREST</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">生日 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <div class="row">
+                                <ul class="col-xs-4 col-md-4 col-md-4 col-lg-4">
+                                    <li class="dropdown-title">关系</li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">朋友</a></li>
+                                    <li><a href="#">爱人</a></li>
+                                    <li><a href="#">姐妹</a></li>
+                                </ul>
+                                <ul class="col-xs-4 col-md-4 col-md-4 col-lg-4">
+                                    <li class="dropdown-title">风味</li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">巧克力</a></li>
+                                    <li><a href="#">水果</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">婚礼 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <div class="row">
+                                <ul class="col-xs-4 col-md-4 col-md-4 col-lg-4">
+                                    <li class="dropdown-title">关系</li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">朋友</a></li>
+                                    <li><a href="#">爱人</a></li>
+                                    <li><a href="#">姐妹</a></li>
+                                </ul>
+                                <ul class="col-xs-4 col-md-4 col-md-4 col-lg-4">
+                                    <li class="dropdown-title">风味</li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">巧克力</a></li>
+                                    <li><a href="#">水果</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">专用 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <div class="row">
+                                <ul class="col-xs-4 col-md-4 col-md-4 col-lg-4">
+                                    <li class="dropdown-title">关系</li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">朋友</a></li>
+                                    <li><a href="#">爱人</a></li>
+                                    <li><a href="#">姐妹</a></li>
+                                </ul>
+                                <ul class="col-xs-4 col-md-4 col-md-4 col-lg-4">
+                                    <li class="dropdown-title">风味</li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">巧克力</a></li>
+                                    <li><a href="#">水果</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">商铺 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <div class="row">
+                                <ul class="col-xs-4 col-md-4 col-md-4 col-lg-4">
+                                    <li class="dropdown-title">关系</li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">朋友</a></li>
+                                    <li><a href="#">爱人</a></li>
+                                    <li><a href="#">姐妹</a></li>
+                                </ul>
+                                <ul class="col-xs-4 col-md-4 col-md-4 col-lg-4">
+                                    <li class="dropdown-title">风味</li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">巧克力</a></li>
+                                    <li><a href="#">水果</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+                <ul class="navbar-right">
+                    <li class="search-icon">
+                        <a href="#"><span class="glyphicon glyphicon-search"></span></a>
+                        <div class="search-bar">
+                            <div class="search-tri"></div>
+                            <div class="search-form">
+                                <input type="text">
+                                <button>搜索</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="usr-icon">
+                        <a href="#"><span class="glyphicon glyphicon-user"></span></a>
+                        <div class="usr-bar">
+                            <div class="usr-tri"></div>
+                            <form class="usr-form">
+                                <label for="usr">用户名</label>
+                                <input type="text" id="usr">
+                                <label for="pwd">密码</label>
+                                <input type="password" id="pwd">
+                                <button>登录</button>
+                                <input type="checkbox" id="rem-me">
+                                <label for="rem-me">记住我</label>
+                            </form>
+                            <div class="usr-tip">
+                                <span>新用户?<a href="#">注册</a>| 忘记密码?</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cart-icon">
+                        <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+                        <div class="cart-bar">
+                            <div class="cart-tri"></div>
+                            <p>$0.00(0)</p>
+                            <button>空</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- banner  -->
+    <section>
+        <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="left-content col-xs-6 col-md-6 col-sm-6 col-lg-6">
+                        <p class="banner-title">DForest  <span>Cake</span></p>
+                        <p class="banner-content">特别的日子 , 特别的你</p>
+                        <button>SHOP NOW</button>
+                    </div>
+                    <div class="right-content col-xs-6 col-md-6 col-sm-6 col-lg-6">
+                        <img src="img/2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery    -->
+    <section>
+        <div class="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="line-one clearfix">
+                        <div class="left-side col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                            <div class="pic">
+                                <img src="img/g1.jpg">
+                                <div class="cover">
+                                    <div class="cover-tip">
+                                        <span class="glyphicon glyphicon-eye-open"> VIEW</span>
+                                        <button>BUY NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <div class="star-price">
+                                <span>☆☆☆☆☆</span>
+                                <span>$95.00</span>
+                            </div>
+                        </div>
+                        <div class="right-side col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="pic">
+                                <img src="img/g2.jpg">
+                                <div class="cover">
+                                    <div class="cover-tip">
+                                        <span class="glyphicon glyphicon-eye-open"> VIEW</span>
+                                        <button>BUY NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <div class="star-price">
+                                <span>☆☆☆☆☆</span>
+                                <span>$95.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="gallery-content clearfix">
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="pic">
+                                <img src="img/g3.png">
+                                <div class="cover">
+                                    <div class="cover-tip">
+                                        <span class="glyphicon glyphicon-eye-open"> VIEW</span>
+                                        <button>BUY NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <div class="star-price">
+                                <span>☆☆☆☆☆</span>
+                                <span>$95.00</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="pic">
+                                <img src="img/g4.png">
+                                <div class="cover">
+                                    <div class="cover-tip">
+                                        <span class="glyphicon glyphicon-eye-open"> VIEW</span>
+                                        <button>BUY NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <div class="star-price">
+                                <span>☆☆☆☆☆</span>
+                                <span>$95.00</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="pic">
+                                <img src="img/g5.png">
+                                <div class="cover">
+                                    <div class="cover-tip">
+                                        <span class="glyphicon glyphicon-eye-open"> VIEW</span>
+                                        <button>BUY NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <div class="star-price">
+                                <span>☆☆☆☆☆</span>
+                                <span>$95.00</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="pic">
+                                <img src="img/g6.png">
+                                <div class="cover">
+                                    <div class="cover-tip">
+                                        <span class="glyphicon glyphicon-eye-open"> VIEW</span>
+                                        <button>BUY NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <div class="star-price">
+                                <span>☆☆☆☆☆</span>
+                                <span>$95.00</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="pic">
+                                <img src="img/g7.png">
+                                <div class="cover">
+                                    <div class="cover-tip">
+                                        <span class="glyphicon glyphicon-eye-open"> VIEW</span>
+                                        <button>BUY NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <div class="star-price">
+                                <span>☆☆☆☆☆</span>
+                                <span>$95.00</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="pic">
+                                <img src="img/g8.png">
+                                <div class="cover">
+                                    <div class="cover-tip">
+                                        <span class="glyphicon glyphicon-eye-open"> VIEW</span>
+                                        <button>BUY NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <div class="star-price">
+                                <span>☆☆☆☆☆</span>
+                                <span>$95.00</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="pic">
+                                <img src="img/g9.png">
+                                <div class="cover">
+                                    <div class="cover-tip">
+                                        <span class="glyphicon glyphicon-eye-open"> VIEW</span>
+                                        <button>BUY NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <div class="star-price">
+                                <span>☆☆☆☆☆</span>
+                                <span>$95.00</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="pic">
+                                <img src="img/g10.png">
+                                <div class="cover">
+                                    <div class="cover-tip">
+                                        <span class="glyphicon glyphicon-eye-open"> VIEW</span>
+                                        <button>BUY NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <div class="star-price">
+                                <span>☆☆☆☆☆</span>
+                                <span>$95.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="subscribe">
+            <div class="sub-content">
+                <h1>Newsletter</h1>
+                <form action="#">
+                    <input type="text" placeholder="Email">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer-bottom">
+            <div class="container fb-info">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4 col-md-3 col-md-3">
+                        <h2>Company</h2>
+                        <ul>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Work Here</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Happenings</a></li>
+                            <li><a href="#">Dealer Locator</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 col-md-3">
+                        <h2>Service</h2>
+                        <ul>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Warranty</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 col-md-3">
+                        <h2>Order & Returns</h2>
+                        <ul>
+                            <li><a href="#">Order Status</a></li>
+                            <li><a href="#">Shipping Policy</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Digital Gift Card</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 col-md-3">
+                        <h2>Legal</h2>
+                        <ul>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms And Conditions</a></li>
+                            <li><a href="#">Social Responsibility</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <p>Copyright &copy;2017 dforest.top All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- <script src="js/index.js"></script> -->
+</body>
+</html>

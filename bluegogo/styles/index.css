@@ -1,0 +1,52 @@
+/*reset*/
+html,body,div,ul,li,a,img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*reset end*/
+
+.container{
+    width: 6.4rem;
+    height: 11.36rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pg1,.pg2,.pg3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.container img{
+    width: 100%;
+}
+
+// .pg1{
+//     background: url(../img/С61.jpg) no-repeat center center fixed;
+//     background-size: 100%;
+// }
+
+// .pg2{
+//     background: url(../img/bluegogo.gif) no-repeat center center fixed;
+//     background-size: 100%;
+// }
+
+// .pg3{
+//     background: url(../img/С63.jpg) no-repeat center center fixed;
+//     background-size: 100%;
+// }
+
+.active{
+    display: block;
+}
+
+/* .pg1 img,.pg2 img,.pg3 img{
+    display: block;
+    width: 100%;
+    height: 100%;
+} */

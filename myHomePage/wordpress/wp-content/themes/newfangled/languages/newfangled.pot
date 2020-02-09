@@ -1,0 +1,1036 @@
+# Copyright (C) 2017 Newfangled
+# This file is distributed under the same license as the Newfangled package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Newfangled\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: archive.php:51, index.php:47, search.php:48
+msgid " &larr; Previous Post"
+msgstr ""
+
+#: archive.php:52, index.php:48, search.php:49
+msgid "Next Post &rarr;"
+msgstr ""
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35, comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36
+msgid " Previous Comments"
+msgstr ""
+
+#: comments.php:37, comments.php:54
+msgid "Next Comments"
+msgstr ""
+
+#: comments.php:53
+msgid "Previous Comments"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:73
+msgid "Post Comments"
+msgstr ""
+
+#: comments.php:75
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:83
+msgid "Name"
+msgstr ""
+
+#: comments.php:88
+msgid "Email"
+msgstr ""
+
+#: comments.php:93
+msgid "Website"
+msgstr ""
+
+#: footer.php:29
+msgid "<p>Powered by <a href=\"%1$s\" target=\"_blank\">WordPress</a>"
+msgstr ""
+
+#: footer.php:31
+msgid "Theme: Newfangled by <a href=\"%1$s\" target=\"_blank\" rel=\"designer\">Joyousthemes</a></p>"
+msgstr ""
+
+#: front-page.php:42, front-page.php:111, front-page.php:146, includes/template-tags.php:560, template-parts/content-single.php:38, template-parts/content.php:48
+msgid "Pages: "
+msgstr ""
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:146
+msgid "About Law"
+msgstr ""
+
+#: functions.php:147
+msgid "Newfangled Theme elegant and robustly built WordPress theme for lawyers, Law Firm and Attorney website.<a class=\"more-link\" href=\"#\">Buy Now</a>"
+msgstr ""
+
+#: functions.php:167
+msgid "Head Office"
+msgstr ""
+
+#: functions.php:168
+msgid "Honest Bank, 457 Grand Ave,Los Angels, BA 007<br><strong>Email:</strong> <a href=\"mailto:xxx@mail.com\">xxx@mail.com</a><br><strong>phone:</strong> 1234 5624 2586<br><strong>Fax:</strong> 158 425 252"
+msgstr ""
+
+#: functions.php:197
+msgid "Post One"
+msgstr ""
+
+#: functions.php:198
+msgid "<h2>Dedicated of Excellence</h2> Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.<p class=\"portfolio-readmore\"><a class=\"btn btn-mini more-link\" href=\"#\">Read More</a></p>"
+msgstr ""
+
+#: functions.php:203
+msgid "Post Two"
+msgstr ""
+
+#: functions.php:204
+msgid "<h2>We are Voice of Justice</h2> Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.<p class=\"portfolio-readmore\"><a class=\"btn btn-mini more-link\" href=\"#\">Read More</a></p>"
+msgstr ""
+
+#: functions.php:209
+msgid "Service 1"
+msgstr ""
+
+#: functions.php:210, functions.php:216, functions.php:222
+msgid "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur"
+msgstr ""
+
+#: functions.php:215
+msgid "Service 2"
+msgstr ""
+
+#: functions.php:221
+msgid "Service 3"
+msgstr ""
+
+#: functions.php:231
+msgid "slider one"
+msgstr ""
+
+#: functions.php:235
+msgid "Page Images"
+msgstr ""
+
+#: functions.php:276
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:285
+msgid "Top Left"
+msgstr ""
+
+#: functions.php:294
+msgid "Top Right"
+msgstr ""
+
+#: functions.php:303
+msgid "Header Top Right"
+msgstr ""
+
+#: functions.php:313
+msgid "Footer %d"
+msgstr ""
+
+#: functions.php:323
+msgid "Footer Nav"
+msgstr ""
+
+#: header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: search.php:25
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:36
+msgid "About Author:"
+msgstr ""
+
+#: template-full-width.php:2
+msgid "Full Width Template"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:386, admin/class-tgm-plugin-activation.php:827, admin/class-tgm-plugin-activation.php:2533, admin/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:387, admin/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:388, admin/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:934, admin/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:1121, admin/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: admin/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: admin/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: admin/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: admin/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: admin/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: admin/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: admin/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3509, admin/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3509, admin/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: admin/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: admin/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: admin/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/control-icon-picker.php:43
+msgid "Inline picker"
+msgstr ""
+
+#: includes/custom-header.php:83
+msgid "Play background video"
+msgstr ""
+
+#: includes/custom-header.php:84
+msgid "Pause background video"
+msgstr ""
+
+#: includes/enqueue.php:38
+msgctxt "Font: on or off"
+msgid "on"
+msgstr ""
+
+#: includes/options-config.php:4
+msgid "newfangled"
+msgstr ""
+
+#: includes/options-config.php:6
+msgid "Upgrade To newfangled Pro"
+msgstr ""
+
+#: includes/options-config.php:20
+msgid "Welcome to %1$s - Version %2$s"
+msgstr ""
+
+#: includes/options-config.php:21
+msgid "<div class=\"about-text\"> Newfangled is a free WordPress theme to use for multipurpose. It fits for business,commercial Uses and other purposes. You can use multiple sliders and Icon with services, BreadCrumb with related featured image of Post and Page. It has a Clean look of Blog view and widgetized footer. Newfangled is a responsive, Translation Ready and Customizable Options.</div>"
+msgstr ""
+
+#: includes/options-config.php:22
+msgid "Newfangled is our first theme and me and my friend both are combined to create Newfangled. We will also like to give a PRO version for Newfangled. Help me develop the theme and provide support by <a href=\"%2$s\">donating even a small sum</a>"
+msgstr ""
+
+#: includes/options-config.php:28
+msgid "Theme Customizer"
+msgstr ""
+
+#: includes/options-config.php:29
+msgid "%s supports the Theme Customizer for all theme settings. Click \"Customize\" to start customize your site."
+msgstr ""
+
+#: includes/options-config.php:31
+msgid "Start Customize"
+msgstr ""
+
+#: includes/options-config.php:35
+msgid "Having Trouble, Need Support?"
+msgstr ""
+
+#: includes/options-config.php:36
+msgid "Support for %s WordPress theme is conducted through Webulous free support ticket system."
+msgstr ""
+
+#: includes/options-config.php:38
+msgid "Mail Us"
+msgstr ""
+
+#: includes/options-config.php:56, includes/options-config.php:57
+msgid "Theme Options"
+msgstr ""
+
+#: includes/options-config.php:60
+msgid "General"
+msgstr ""
+
+#: includes/options-config.php:61
+msgid "General settings that affects overall site"
+msgstr ""
+
+#: includes/options-config.php:65
+msgid "Enable Breadcrumb Section"
+msgstr ""
+
+#: includes/options-config.php:71
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: includes/options-config.php:77
+msgid "Breadcrumb Background Image"
+msgstr ""
+
+#: includes/options-config.php:83
+msgid "Select Breadcrumb Character"
+msgstr ""
+
+#: includes/options-config.php:94
+msgid "Enable Numeric Page Navigation"
+msgstr ""
+
+#: includes/options-config.php:95
+msgid "Check to display numeric page navigation, instead of Previous Posts / Next Posts links."
+msgstr ""
+
+#: includes/options-config.php:101
+msgid "Website Layout Options"
+msgstr ""
+
+#: includes/options-config.php:102
+msgid "Select main content and sidebar alignment."
+msgstr ""
+
+#: includes/options-config.php:104
+msgid "Sidebar Left"
+msgstr ""
+
+#: includes/options-config.php:105
+msgid "Sidebar Right"
+msgstr ""
+
+#: includes/options-config.php:106
+msgid "Full Width"
+msgstr ""
+
+#: includes/options-config.php:107
+msgid "No Sidebar"
+msgstr ""
+
+#: includes/options-config.php:115
+msgid "Header"
+msgstr ""
+
+#: includes/options-config.php:116
+msgid "Header options"
+msgstr ""
+
+#: includes/options-config.php:120
+msgid "Logo as Title"
+msgstr ""
+
+#: includes/options-config.php:126
+msgid "Show site Tagline"
+msgstr ""
+
+#: includes/options-config.php:133
+msgid "Footer"
+msgstr ""
+
+#: includes/options-config.php:134
+msgid "Footer related options"
+msgstr ""
+
+#: includes/options-config.php:138
+msgid "Footer Widget Area"
+msgstr ""
+
+#: includes/options-config.php:144
+msgid "Footer Copyright Text (Validated that it's HTML Allowed)"
+msgstr ""
+
+#: includes/options-config.php:145
+msgid "HTML Allowed. <b>This field is even HTML validated! </b>"
+msgstr ""
+
+#: includes/options-config.php:151
+msgid "Home"
+msgstr ""
+
+#: includes/options-config.php:152
+msgid "Home Page options"
+msgstr ""
+
+#: includes/options-config.php:156
+msgid "Enable Home Page Slider Section"
+msgstr ""
+
+#: includes/options-config.php:162
+msgid "Slider Posts Category"
+msgstr ""
+
+#: includes/options-config.php:167
+msgid "No. of Sliders"
+msgstr ""
+
+#: includes/options-config.php:173
+msgid "Enable Home Page Service Section"
+msgstr ""
+
+#: includes/options-config.php:179, includes/options-config.php:254
+msgid "Enter your section title"
+msgstr ""
+
+#: includes/options-config.php:184
+msgid "Choose Service Section Icons #1"
+msgstr ""
+
+#: includes/options-config.php:189
+msgid "Service Section #1"
+msgstr ""
+
+#: includes/options-config.php:194
+msgid "Service #1 Color"
+msgstr ""
+
+#: includes/options-config.php:200
+msgid "Choose Service Section Icons #2"
+msgstr ""
+
+#: includes/options-config.php:205
+msgid "Service Section #2"
+msgstr ""
+
+#: includes/options-config.php:210
+msgid "Service #2 Color"
+msgstr ""
+
+#: includes/options-config.php:216
+msgid "Choose Service Section Icons #3"
+msgstr ""
+
+#: includes/options-config.php:221
+msgid "Service Section #3"
+msgstr ""
+
+#: includes/options-config.php:226
+msgid "Service #3 Color"
+msgstr ""
+
+#: includes/options-config.php:232
+msgid "Check this box to Show Image section"
+msgstr ""
+
+#: includes/options-config.php:238
+msgid "Image content Section #1"
+msgstr ""
+
+#: includes/options-config.php:243
+msgid "Image content Section #2"
+msgstr ""
+
+#: includes/options-config.php:248
+msgid "Enable Home Page Recent Post Section"
+msgstr ""
+
+#: includes/options-config.php:259
+msgid "No. of Recent Posts"
+msgstr ""
+
+#: includes/options-config.php:265
+msgid "Enable Home Page Default Content"
+msgstr ""
+
+#: includes/options-config.php:272
+msgid "Blog"
+msgstr ""
+
+#: includes/options-config.php:273
+msgid "Blog Related Posts options"
+msgstr ""
+
+#: includes/options-config.php:277
+msgid "Enable Featured Image"
+msgstr ""
+
+#: includes/options-config.php:283
+msgid "Choose the featured image display type for Blog Page "
+msgstr ""
+
+#: includes/options-config.php:285, includes/options-config.php:301
+msgid "Large Featured Image"
+msgstr ""
+
+#: includes/options-config.php:286, includes/options-config.php:302
+msgid "Small Featured Image"
+msgstr ""
+
+#: includes/options-config.php:293
+msgid "Enable Single Post Featured Image"
+msgstr ""
+
+#: includes/options-config.php:299
+msgid "Choose the featured image display type for Single Page "
+msgstr ""
+
+#: includes/options-config.php:309
+msgid " Enable Author Bio Box below single post"
+msgstr ""
+
+#: includes/options-config.php:310
+msgid "Show Author information box below single post."
+msgstr ""
+
+#: includes/options-config.php:316
+msgid "Show Related posts"
+msgstr ""
+
+#: includes/options-config.php:317
+msgid "Show related posts."
+msgstr ""
+
+#: includes/options-config.php:323
+msgid "Related Posts Must Be Shown As:"
+msgstr ""
+
+#: includes/options-config.php:325
+msgid "Related Posts By Tags"
+msgstr ""
+
+#: includes/options-config.php:326
+msgid "Related Posts By Categories"
+msgstr ""
+
+#: includes/options-config.php:333
+msgid " Show Comments"
+msgstr ""
+
+#: includes/options-config.php:334
+msgid "Show Comments"
+msgstr ""
+
+#: includes/template-tags.php:25
+msgid "Post navigation"
+msgstr ""
+
+#: includes/template-tags.php:28
+msgid "previous post"
+msgstr ""
+
+#: includes/template-tags.php:28
+msgctxt "Previous post link"
+msgid "%title"
+msgstr ""
+
+#: includes/template-tags.php:29
+msgid "next post"
+msgstr ""
+
+#: includes/template-tags.php:29
+msgctxt "Next post link"
+msgid "%title&nbsp;"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: includes/template-tags.php:47, includes/template-tags.php:53
+msgid " "
+msgstr ""
+
+#: includes/template-tags.php:49, includes/template-tags.php:55, includes/template-tags.php:124
+msgid "%1$s "
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: includes/template-tags.php:122
+msgid ", "
+msgstr ""
+
+#: includes/template-tags.php:203
+msgid "<i class=\"fa fa-home\"></i>"
+msgstr ""
+
+#: includes/template-tags.php:204
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: includes/template-tags.php:205
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: includes/template-tags.php:206
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: includes/template-tags.php:207
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: includes/template-tags.php:208
+msgid "Error 404"
+msgstr ""
+
+#: includes/template-tags.php:261, includes/template-tags.php:261, includes/template-tags.php:262, includes/template-tags.php:266, includes/template-tags.php:266, includes/template-tags.php:270
+msgid "Y"
+msgstr ""
+
+#: includes/template-tags.php:262
+msgid "m"
+msgstr ""
+
+#: includes/template-tags.php:262, includes/template-tags.php:267
+msgid "F"
+msgstr ""
+
+#: includes/template-tags.php:263
+msgid "d"
+msgstr ""
+
+#: includes/template-tags.php:333
+msgid "Page"
+msgstr ""
+
+#: includes/template-tags.php:354
+msgctxt "post author"
+msgid " %s"
+msgstr ""
+
+#: includes/template-tags.php:374
+msgid "No Comments"
+msgstr ""
+
+#: includes/template-tags.php:376
+msgid " Comments"
+msgstr ""
+
+#: includes/template-tags.php:378
+msgid "1 Comment"
+msgstr ""
+
+#: includes/template-tags.php:382
+msgid "Leave a comment"
+msgstr ""
+
+#: includes/template-tags.php:391, template-parts/content-page.php:32
+msgid "Edit"
+msgstr ""
+
+#: includes/template-tags.php:438, includes/template-tags.php:441
+msgid "No Related Posts Yet!"
+msgstr ""
+
+#: includes/template-tags.php:469, template-parts/content.php:40
+msgid "Read More"
+msgstr ""
+
+#: includes/template-tags.php:480
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: includes/template-tags.php:481
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: includes/template-tags.php:482
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: includes/template-tags.php:601
+msgid "Welcome! Thank you for choosing %1$s! , If you need more help from us feel free to mail us <a href=\"mailto:%3$s\">%3$s.</a> Newfangled is our first theme and me and my friend both are combined to create Newfangled. We will also like to give a PRO version for Newfangled. Help me develop the theme and provide support by <a href=\"%2$s\">donating even a small sum</a>"
+msgstr ""
+
+#: includes/template-tags.php:602
+msgid "Get started with Newfangled"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:26
+msgid "Pages:"
+msgstr ""

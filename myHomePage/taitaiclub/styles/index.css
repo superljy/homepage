@@ -1,0 +1,391 @@
+/* reset start */
+html,body,div,h1,h2,h3,h4,h5,h6,a,img,span,ul,ol,li,p,label,input,textarea,nav,section,header,footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "微软雅黑";
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #298959;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+html,body{
+    height: 100%;
+}
+
+p{
+    text-align: center;
+}
+/* reset end */
+
+body{
+    background-image: url(../images/bg.jpg);
+    background-size: 100% 100%;
+}
+
+/* 非微信提示页 */
+/* .weixin_tip{
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.tip_content{
+    width: 500px;
+    height: 60px;
+    margin: 80px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.tip_content p{
+    font-size: 24px;
+} */
+
+.bgm_logo{
+    width: 10%;
+    height: 7%;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 2;
+}
+
+.bgm_logo_ani{
+    animation: bgmLogo 4s infinite linear;
+}
+
+.bgm_logo img{
+    width: 100%;
+}
+
+@keyframes bgmLogo{
+    from{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* page1 */
+
+.page_center{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.page1 .logo{
+    margin-bottom: 10%;
+}
+
+.page1 h2{
+    margin-bottom: 10%;
+    letter-spacing: .3em;
+}
+
+.page1 p{
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: .2em;
+}
+
+.arrow{
+    width: 100%;
+    height: 20px;
+}
+
+.arrow span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    margin-left: -10px;
+    animation: arrow 1s linear infinite alternate;
+    z-index: 2;
+}
+
+@keyframes arrow {
+    from{
+        bottom:5%;
+    }
+    to{
+        bottom: 7%;
+    }
+}
+
+.bg_bottom{
+    width: 100%;
+    height: 40%;
+    background: url(../images/bg_bottom.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    position: absolute;
+    bottom: -11%;
+    z-index: -1;
+}
+
+/* page2 */
+.bg1{
+    width: 100%;
+    height: 60%;
+    background: url(../images/bg1.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 5%;
+}
+
+.bg1 p{
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5% 0;
+    letter-spacing: .3em;
+}
+
+.bg1 h1{
+    margin-top: 10%;
+    color: #dc798a;
+}
+
+/* 3meili -- p4 p5 p6 */
+.page4,.page5,.page6{
+    background: url(../images/p456bg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.page4 p,.page5 p,.page6 p{
+    width: 70%;
+    float: right;
+    margin-top: 10%;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.page4 p b,.page5 p b,.page6 p b{
+    font-size: 1.5em;
+    color: #dc6c34;
+}
+
+/* p7 */
+.bg_top{
+    width: 100%;
+    height: 50%;
+    background: url(../images/3meili1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.page7 p{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+/* p8 */
+.page8 p b{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* p9 */
+.page9 p{
+    font-size: 1.2em;
+    font-weight: normal;
+    letter-spacing: .5em;
+}
+
+.bg_ins{
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.character{
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+.character img{
+    width: 100%;/* 
+    height: 100%; */
+}
+
+
+.char_title{
+    margin: 5% 0;
+    color: #dc6c34;
+}
+
+.char_p{
+    font-weight: bold;
+}
+
+
+/* p10 */
+.page10 .character{
+    height: 50%;
+}
+
+.page10 .char_title{
+    margin-top: 0;
+}
+
+.page10 h1{
+    color: #666;
+    margin-bottom: 1%;
+}
+
+.page10 p{
+    width:80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: left;
+}
+
+/* p16 */
+.page16 .character img{
+    height: 100%;
+}
+
+
+/* p17 */
+.page17 .character{
+    width: 70%;
+    height: 50%;
+}
+.page17 .character img{
+    height: 100%;
+}
+
+/* p23 */
+.page23 .character{
+    width: 60%;
+    height: 55%;
+}
+.page23 .character img{
+    height: 100%;
+}
+
+/* p24 */
+.page24 .bg1 img{
+    width: 100%;
+}
+
+.page24 .bg_bottom{
+    z-index: -1;
+}
+
+/* p25 */
+.page25 .bg1{
+    padding: 0;
+}
+
+.page25 .bg1 img{
+    width: 100%;
+}
+
+.page25 .bg_bottom{
+    z-index: -1;
+}
+
+/* p26 */
+.page26 .bg1 p{
+    font-size: 1rem;
+    color: #666;
+    letter-spacing: .2rem;
+}
+
+.page26 .bg1 p:nth-child(3){
+    color: #bd1c4f;
+}
+
+.page26 .bg1 p:last-child{
+    letter-spacing: 0;
+    color: #333;
+}
+
+
+/* p27 */
+.page27 .bg1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page27 .bg1 p{
+    color: #666;
+    letter-spacing: .2rem;
+}
+
+.page27 .bg1 p:nth-child(2){
+    color: #bd1c4f;
+}
+
+/* 报名页面 */
+.page28 h1{
+    color: #905d90;
+}
+.page28 form{
+    width: 80%;
+    height: 50%;
+    margin: 5% auto;
+}
+
+.page28 form input{
+    display: block;
+    width: 100%;
+    height: 12%;
+    margin-bottom: 5%;
+    padding: 3%;
+    font-size: 1.1em;
+    border: 1px solid #abcdef;
+    outline: none;
+}
+
+.page28 form button{
+    width: 100%;
+    height: 12%;
+    background: #abcdef;
+    border: 0;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.page28 form #message{
+    margin-top: 2%;
+    font-size: 1.3rem;
+    color: #f00;
+    font-weight: bold;
+}
+
+.page28 .bg_bottom{
+    z-index: -1;
+}

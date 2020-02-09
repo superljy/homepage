@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>长沙银行VR发布会</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/CSS3DRenderer.js"></script>
+    <script src="js/resize.js"></script>
+    <script src="js/pace.js"></script>
+	<link rel="stylesheet" href="styles/index.css">
+</head>
+<body>		
+	<!-- 非微信打开提示页面 -->
+	<div class="weixin_tip">
+		<div class="tip_content">
+			<p>请在微信打开本页面</p>
+		</div>
+	</div>
+	<!-- 非微信打开提示页面end -->
+	
+	<!-- loading页面 -->
+	<div class="load" >
+        <div class="con-load">
+            <img src="img/loading.png">
+            <p></p>
+        </div>
+    </div>
+    <!-- loading页面end -->
+    
+    <!-- 页面内容 -->
+	<!-- <div class="f_page"></div> -->
+	<!-- <div class="open_door"></div> -->
+	<!-- 首页视频 -->
+	<video class="open_door" preload="auto" playsinline="" webkit-playsinline="" x5-playsinline="" poster="img/f_page/f_page.jpg">
+		<source src="img/f_page/open_door.mp4" type="video/mp4"> 
+	</video>
+	<!-- VR主体 -->
+	<div id="pino">
+	    <div id="bg_section_0" class="bg_section bg_section_4">
+	        <img class="bg" src="img/vrbankright.jpg" alt="">
+	        <div class="frk_btn ani_scale"></div> 
+	        <div class="zbj_btn ani_scale"></div> 
+	        <div class="act_teacup"></div>
+	    </div>
+	    <div id="bg_section_1" class="bg_section bg_section_5">
+	        <img class="bg" src="img/vrbankleft.jpg" alt="">
+	        <div class="wdy_btn ani_scale"></div> 
+	        <div class="zqc_btn ani_scale"></div> 
+	        <div class="cf_btn ani_scale"></div> 
+	        <div class="act_face"></div>
+	        <div class="act_dia_lele"></div>
+	        <div class="act_tv_umbre"></div>
+	    </div>
+	    <div id="bg_section_2" class="bg_section bg_section_2">
+	        <img class="bg" src="img/vrbanktop.jpg" alt="">
+	    </div>
+	    <div id="bg_section_3" class="bg_section bg_section_3">
+	        <img class="bg" src="img/vrbankbottom.jpg" alt="">
+	    </div>
+	    <div id="bg_section_4" class="bg_section bg_section_1">
+	        <img class="bg" src="img/vrbankfront.jpg" alt="">
+	        <div class="y20_btn ani_scale"></div> 
+	        <div class="qd_btn ani_scale"></div> 
+	        <div class="act_plane_lele"></div>
+	        <div class="act_relax_man"></div>
+	        <div class="act_it_man"></div>
+	        <div class="act_boat_man"></div>
+	        <div class="act_lele"></div>
+	    </div>
+	    <div id="bg_section_5" class="bg_section bg_section_0">
+	        <img class="bg" src="img/vrbankback.jpg" alt="">
+	        <div class="wl_btn ani_scale"></div>
+	        <div class="act_boat"></div>
+	        <div class="act_helico"></div>
+	    </div>
+	</div> 
+	<div class="tip_page">
+		<img src="img/tip_page/cf.png">
+		<div class="tip_btn"><a href="http://cscb.wqcfs.com/themes/html/cscb/play_video/#2"><img src="img/tip_page/cf_btn.png"></a></div>
+		<div class="tip_close"><img src="img/tip_page/cancel_btn.png"></div>
+	</div>
+	<script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+/* reset start */
+html, body, div, h1, h2, h3, h4, h5, h6, a, img, span, ul, ol, li, p, nav, section, header, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "微软雅黑";
+    box-sizing: border-box;
+}
+
+img {
+    pointer-events: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+/* reset end */
+
+/*nav*/
+.nav {
+    width: 100%;
+    height: 12vh;
+    padding: 0.29rem;
+    background: url("../images/title.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 2;
+}
+
+.nav div {
+    /*height:100%;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 1px solid #a95eae;
+}
+
+.nav div:last-child {
+    border-right: 0px;
+}
+
+.nav .main-content, .nav .voucher100, .nav .voucher300 {
+    width: 33.33%;
+    cursor: pointer;
+}
+
+.nav .main-content img {
+    width: 1.32rem;
+}
+
+.nav .voucher100 img, .nav .voucher300 img {
+    width: 1.65rem;
+}
+
+/*main*/
+.box-main {
+    width: 100%;
+    height: 100vh;
+}
+
+.box-main > img {
+    width: 100%;
+    height: 100%;
+}
+
+.box-main .btn {
+    position: absolute;
+    left: 50%;
+    margin-left: -2.42rem;
+    bottom: 2.9vh;
+}
+
+.box-main .btn .back {
+    width: 4.84rem;
+    height: 7vh;
+    background: url("../images/btn_1.png") no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: .9vh;
+}
+
+.box-main .btn .check {
+    width: 4.63rem;
+    height: 7vh;
+    background: url("../images/btn_0.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+/*300v*/
+.box-v300 {
+    width: 100%;
+    position: relative;
+    display: none;
+}
+
+.box-v300 > img {
+    width: 100%;
+}
+
+.box-v300 .btn {
+    position: absolute;
+    left: 50%;
+    margin-left: -2.42rem;
+    bottom: 4.9vh;
+}
+
+.box-v300 .btn .back {
+    width: 4.84rem;
+    height: 7vh;
+    background: url("../images/btn_1.png") no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 2vh;
+}
+
+.box-v300 .btn .check {
+    width: 4.63rem;
+    height: 7vh;
+    background: url("../images/btn_0.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+/*100v*/
+.box-v100 {
+    width: 100%;
+    position: relative;
+    display: none;
+}
+
+.box-v100 > img {
+    width: 100%;
+}
+
+.box-v100 .btn {
+    position: absolute;
+    left: 50%;
+    margin-left: -2.42rem;
+    bottom: 4.9vh;
+}
+
+.box-v100 .btn .back {
+    width: 4.84rem;
+    height: 7vh;
+    background: url("../images/btn_1.png") no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 2vh;
+}
+
+.box-v100 .btn .check {
+    width: 4.63rem;
+    height: 7vh;
+    background: url("../images/btn_0.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}

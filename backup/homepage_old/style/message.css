@@ -1,0 +1,226 @@
+/* reset start */
+html,body,div,h1,h2,h3,h4,h5,h6,a,img,span,ul,ol,li,p,textarea,input,button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "微软雅黑";
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:focus,a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+/* reset end */
+
+body{
+    background-color: #b1c7dc;
+}
+
+/* header start */
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(120,174,228,.5);
+}
+
+/* header nav{
+    padding: 0 20px;
+}
+
+header nav .logo{
+    height: 60px;
+    overflow: hidden;
+}
+
+header nav .logo img{
+    height: 100%;
+} */
+
+header nav{
+    height: 100%;
+    padding: 10px;
+}
+
+header nav ul.nav-bar{
+    float: right;
+    height: 40px;
+}
+
+header nav ul.nav-bar li{
+    float: left;
+    height: 40px;
+    line-height: 20px;
+    margin-right: 50px;
+    border: 1px solid #c4e0ee;
+    border-radius: 5px;
+}
+
+header nav ul.nav-bar li a{
+    display: inline-block;
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+header nav ul.nav-bar li:hover{
+    background-color: #c4e0ee;
+}
+
+header nav ul.nav-bar .active{
+    background-color: #c4e0ee;
+    border-radius: 5px;
+}
+
+@media (max-width:768px){
+    header nav ul.nav-bar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    header nav ul.nav-bar li{
+        margin-right: 10px;
+    }
+}
+/* header end */
+
+/* section content start */
+.container-fluid{
+    padding-top: 100px;
+}
+
+.panel{
+    background-color: #78aee4;
+}
+
+.panel-default{
+    border: 1px solid #78aee4;
+}
+
+.panel-default>.panel-heading{
+    color: #444;
+    background-color: #78aee4;
+    border: 1px solid #78aee4;
+    text-align: center;
+}
+
+.table th,.table td{
+    color: #eee;
+}
+
+/* message */
+.container .content{
+    text-align: center;
+}
+
+.content .content-form{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content .content-form label{
+    display: block;
+    color: #444;
+    font-size: 1.5em;
+    text-align: left;
+    /* padding-left: 80px; */
+    margin-bottom: 20px;
+}
+
+.content .content-form .usr-name{
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin: 0 0 20px 0;
+    padding: 5px;
+}
+
+.content .content-form .usr-message{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 0 0 20px 0;
+}
+
+.content .content-form button{
+    width: 100%;
+    height: 45px;
+    background: #b1c7dc;
+    border: 0;
+    color: #333;
+    font-size: 1.3em;
+    outline: 0;
+    cursor: pointer;
+}
+
+.content .content-form button:hover{
+    background: #77a6d6;
+}
+
+.content .message{
+    color: #999;
+}
+
+.back-top{
+    margin-top: 100px;
+    display: none;
+}
+
+/* @media (min-width:320px) and (max-width: 767px){
+    section .container{
+        margin: 50px auto;
+    }
+    section .container .title{
+        height: 70px;
+    }
+    section .container .title h1{
+        font-size: 1.5em;
+    }
+    section .container .title h4{
+        font-size: .9em;
+    }
+    section .content .content-form label{
+        font-size: 1em;
+        margin-bottom: 10px;
+        padding-left: 0;
+    }
+    section .content .content-form .usr-name{
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    section .content .content-form .usr-message{
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    section .content .content-form button{
+        width: 100%;
+    }
+} */
+
+/* @media (min-width:768px) and (max-width: 992px){
+    section .content .content-form label{
+        padding-left: 0;
+    }
+    section .content .content-form .usr-name{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    section .content .content-form .usr-message{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    section .content .content-form button{
+        width: 100%;
+    }
+} */
+/* section content end */

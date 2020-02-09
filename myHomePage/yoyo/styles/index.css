@@ -1,0 +1,190 @@
+/*reset start */
+html,body,div,h1,h2,h3,h4,h5,h6,a,img,span,ul,ol,li,p,label,form,input,textarea,nav,section,header,footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "微软雅黑";
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+
+p{
+    text-align: center;
+}
+
+input,a,button {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+/* reset end */
+
+/* bgm-icon */
+.bgm_ico{
+    width: 0.96rem;
+    height: 6%;
+    background: url(../images/bgm.svg) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 3;
+}
+
+.bgm_ico_ani{
+    animation: bgm_ico_ani 4s infinite linear;
+}
+
+@keyframes bgm_ico_ani{
+    0%{
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+    }
+    50%{
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+/* bgm-icon end */
+
+/* container */
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+/* container end */
+
+/* title */
+.title{
+    width: 8.21rem;
+    height: 34%;
+    background: url(../images/title.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 13%;
+    top: 24%;
+    z-index: 9;
+}
+
+.title_time{
+    width: 1.87rem;
+    height: 8%;
+    background: url(../images/time.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 18%;
+    left: 45%;
+    z-index: 10;
+}
+/* title end */
+
+/* pic */
+.pic1{
+    width: 3.61rem;
+    height: 24%;
+    background: url(../images/top_left_pic.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.pic2{
+    width: 2.45rem;
+    height: 23.2%;
+    background: url(../images/left_pic.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 36%;
+}
+
+.pic3{
+    width: 5.25rem;
+    height: 36%;
+    background: url(../images/right_bottom_pic.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.kitty_and_rabbit{
+    width: 2.17rem;
+    height: 25%;
+    background: url(../images/kitty_and_rabbit.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -15%;
+    left: 28%;
+}
+/* pic end */
+
+/* bg_deco */
+.bg_deco{
+    width: 100%;
+    height: 72%;
+    background: url(../images/bg_deco.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 2%;
+    left: 0;
+}
+/* bg_deco */
+
+/* deco */
+.big_kitty{
+    width: 4.94rem;
+    height: 28%;
+    background: url(../images/big_kitty.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.rabbit{
+    width: 2.4rem;
+    height: 16%;
+    background: url(../images/rabbit.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 4%;
+    left: 7%;
+}
+
+.bird{
+    width: 1.39rem;
+    height: 6.5%;
+    background: url(../images/bird.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    z-index: 10;
+}
+/* deco end */
+

@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    list-style: none;
+}
+.wrapper{
+    width: 100%;
+}
+/*头部*/
+.wrapper .header{
+    width: 100%;
+    height: 60px;
+    background: #07cbc9;
+    position: fixed;
+    z-index: 5;
+}
+
+.wrapper .header img{
+    padding-top: 6px;
+    padding-left: 80px;
+    cursor: pointer;
+}
+
+.wrapper .header .nav{
+    float: right;
+    padding-right: 50px;
+}
+
+.wrapper .header .nav ul li{
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.wrapper .header .nav ul li:hover{
+    background: #000;
+}
+/*banner*/
+.banner{
+    width: 100%;
+    height: 500px;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+    margin-top: 60px;
+}
+
+.banner .banner-top{
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+/*banner中部表单*/
+.msgForm{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 310px;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -150px;
+}
+
+.msgForm form{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.msgForm form input{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    background: transparent;
+    border:2px solid #666;
+    padding-left: 5px;
+    color: #fff;
+}
+.msgForm form input:hover{
+    border:2px solid #07cbc9;
+}
+.msgForm form textarea{
+    width: 300px;
+    margin-top: 10px;
+    background: transparent;
+    border:2px solid #666;
+    padding-left: 5px;
+    color: #fff;
+}
+.msgForm form textarea:hover{
+    border: 2px solid #07cbc9;
+}
+.msgForm form button{
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    background: transparent;
+    color: #666;
+    border: 2px solid #666;
+}
+.msgForm form button:hover{
+    background: #07cbc9;
+    color: #fff;
+    border: 2px solid #07cbc9;
+}
+/*about栏*/
+.about{
+    width: 100%;
+    margin-top: 70px;
+}
+
+.about .aboutCont{
+    width: 1200px;
+    height: 650px;
+    margin: 0 auto;
+}
+
+.about .aboutCont h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.about .aboutCont .line{
+    width: 30px;
+    border: 1px solid #07cbc9;
+    margin: 10px auto;
+}
+
+.about .aboutCont .word{
+    width: 500px; 
+    height: 80px;
+    color: #333;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about .aboutCont .aboutMain{
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.about .aboutCont .lSide{
+    width: 370px;
+    height: 250px;
+    position: absolute;
+    top:785px;
+    z-index: 2;
+}
+.about .aboutCont .lSide h2{
+    padding-left: 10px;
+}
+.about .aboutCont .lSide .explore{
+    border: 1px solid #666;
+    height: 270px;
+    background: #fff;
+    opacity: 0.5;
+}
+.about .aboutCont .lSide p{
+    padding: 20px 0 0 20px;
+    position: absolute;
+    top: 60px;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+.about .aboutCont .lSide button{
+    width: 110px;
+    height: 45px;
+    position: absolute;
+    top: 220px;
+    left: 25px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.about .aboutCont .lSide button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.about .aboutCont .aboutPic{
+    width: 650px;
+    height: 435px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -325px;
+    margin-top: 255px; 
+}
+
+.about .aboutCont .rSide{
+    float: right;
+}
+
+.about .aboutCont .rSide .up{
+    width: 200px;
+    height: 150px;
+    border: 1px solid #07cbc9;
+}
+
+.about .aboutCont .rSide .up p{
+    text-align: center;
+}
+
+.about .aboutCont .rSide .up .up_num{
+    height: 74px;
+    line-height: 74px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rline{
+    width: 30px;
+    border: 1px solid #07cbc9;
+    margin: 0px auto;
+}
+
+.about .aboutCont .rSide .up .up_word{
+    height: 74px;
+    line-height: 74px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about .aboutCont .rSide .down{
+    width: 200px;
+    height: 150px;
+    border: 1px solid #07cbc9;
+    margin-top: 15px;
+}
+
+.about .aboutCont .rSide .down p{
+    text-align: center;
+}
+
+.about .aboutCont .rSide .down .down_num{
+    height: 74px;
+    line-height: 74px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.about .aboutCont .rSide .down .down_word{
+    height: 74px;
+    line-height: 74px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about .aboutIntro{
+    width: 100%;
+}
+
+.introCon1,.introCon2,.introCon3,.introCon4,.introCon5,.introCon6,.introCon7,.introCon8{
+    width: 25%;
+    background: #07cbc9;
+    height: 360px;
+    float: left;
+}
+
+.about .aboutIntro img{
+    width: 100%;
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+.about .aboutIntro .introWord{
+    padding:40px;
+}
+.about .aboutIntro .introCon2 p:nth-child(1),.about .aboutIntro .introCon4 p:nth-child(1),.about .aboutIntro .introCon5 p:nth-child(1),.about .aboutIntro .introCon7 p:nth-child(1){
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.about .aboutIntro .introCon2 p:nth-child(2),.about .aboutIntro .introCon4 p:nth-child(2),.about .aboutIntro .introCon5 p:nth-child(2),.about .aboutIntro .introCon7 p:nth-child(2){
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.about .aboutIntro .introCon2 p:nth-child(3),.about .aboutIntro .introCon4 p:nth-child(3),.about .aboutIntro .introCon5 p:nth-child(3),.about .aboutIntro .introCon7 p:nth-child(3){
+    color: #ddd;
+    font-size: 14px;
+}
+
+.about .aboutIntro .introWord button{
+    width: 110px;
+    height: 45px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #07cbc9;
+    display: table;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.about .aboutIntro .introWord button:hover{
+    background-color: #07cbc9;
+    border: 1px solid #000;
+}
+
+/*gallery*/
+
+.gallery .galleryCont{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery .galleryCont h1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.gallery .galleryCont .line{
+    width: 30px;
+    border: 1px solid #07cbc9;
+    margin: 10px auto;
+}
+
+.gallery .galleryCont .word{
+    width: 500px; 
+    height: 80px;
+    color: #333;
+    text-align: center;
+    margin: 0 auto;
+}
+.gallery .galleryCont .galleryMain img{
+    margin: 5px 15px 15px 5px;
+    cursor: pointer;
+}
+
+/*footer */
+
+.footer{
+    background-color: #07cbc9;
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.footer span{
+    color: #fff;
+    line-height: 80px;
+}

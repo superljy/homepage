@@ -1,0 +1,534 @@
+﻿/* reset */
+html,body,div{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+/* reset end */
+
+/* loading page */
+.load {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #dfe9f3;
+    z-index: 11;
+    /* display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-load {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.load img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 13;
+    -webkit-animation: loading 1s linear infinite;
+    animation: loading 1s linear infinite
+}
+
+.load p {
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 14;
+    text-align: center;
+    margin: 0;
+}
+
+@-webkit-keyframes loading {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loading {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+/* 非微信提示页 */
+.weixin_tip{
+	width: 100%;
+	height: 100%;
+	background-color: #ddd;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.tip_content{
+	width: 80%;
+    height: 10%;
+    margin: 10% auto;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tip_content p{
+	font-size: 24px;
+}
+
+
+/* 首页 */
+/* .f_page{
+	width: 100%;
+	height: 100%;
+	background: url(../img/f_page/f_page.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+} */
+
+.open_door{
+	width: 100%;
+	height: 100%;
+	/* background: url(../img/f_page/open_gif.gif) no-repeat;
+	background-size: 100% 100%; */
+	object-fit: fill;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	/* display: none; */
+}
+
+video::-webkit-media-controls-enclosure {
+        display: none !important;
+}
+
+/* 首页 end */
+
+/* 场景基本属性 */
+.bg_section{
+	width: 1026px;
+	height: 1026px;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	display: none;
+}
+
+.bg_section .bg{
+	width: 1026px;
+	height: 1026px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* 标签动画 */
+.ani_scale{
+	animation: ani_scale 2s infinite linear;
+}
+
+@keyframes ani_scale{
+	from{
+		transform: scale(1, 1);
+	}
+	50%{
+		transform: scale(.9, .9);
+	}
+	to{
+		transform: scale(1, 1);
+	}
+}
+
+/* 标签 */
+.frk_btn,.y20_btn,.zbj_btn,.wdy_btn,.zqc_btn,.cf_btn,.wl_btn,.qd_btn{
+	/* width: 4.4rem;
+	height: 5.27rem; */
+	width: 19%;
+	height: 21%;
+	position: absolute;
+}
+
+.frk_btn{
+	background: url(../img/frk.png) no-repeat;
+	background-size: 100% 100%;
+	top: 34%;
+	left: 55%;
+}
+
+.zbj_btn{
+	background: url(../img/zbj.png) no-repeat;
+	background-size: 100% 100%;
+	top: 51%;
+	left: 8%;
+}
+
+.wdy_btn{
+	background: url(../img/wdy.png) no-repeat;
+	background-size: 100% 100%;
+	top: 43%;
+	left: 62%;
+}
+
+.zqc_btn{
+	background: url(../img/zqc.png) no-repeat;
+	background-size: 100% 100%;
+	top: 38%;
+	left: 18%;
+}
+
+.cf_btn{
+	background: url(../img/cf.png) no-repeat;
+	background-size: 100% 100%;
+	top: 0%;
+	left: -1%;
+}
+
+.y20_btn{
+	background: url(../img/20y.png) no-repeat;
+	background-size: 100% 100%;
+	top: 7%;
+	left: 62%;
+}
+
+.qd_btn{
+	background: url(../img/qd.png) no-repeat;
+	background-size: 100% 100%;
+	top: 9%;
+	left: 19%;
+}
+
+.wl_btn{
+	background: url(../img/wl.png) no-repeat;
+	background-size: 100% 100%;
+	top: 4%;
+	left: 0%;
+}
+
+
+/* 彈窗页面 */
+.tip_page{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	display: none;
+}
+
+.tip_page>img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.tip_page .tip_btn{
+	/* width: 2.33rem;
+	height: .56rem; */
+	width: 34%;
+	height: 5%;
+	position: absolute;
+	top: 68%;
+	left: 50%;
+	margin-left: -17%;
+}
+
+.tip_page .tip_btn>a>img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.tip_page .tip_btn>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.tip_page .tip_close{
+	/* width: .78rem;
+	height: .78rem; */
+	width: 13%;
+	height: 8%;
+	position: absolute;
+	bottom: 17%;
+	left: 50%;
+	/* margin-left: -.39rem; */
+	margin-left: -6.5%;
+}
+
+.tip_page .tip_close>img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+/* 动画图标 */
+.act_face{
+	width: 14%;
+	height: 14%;
+	background: url(../img/act_ico/face.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 63%;
+	left: 62%;
+	animation: act_face 3s infinite linear;
+}
+
+.act_dia_lele{
+	width: 12%;
+	height: 20%;
+	background: url(../img/act_ico/diamond_lele.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 56%;
+	left: 31%;
+	animation: dia_lele 3s infinite linear;
+}
+
+.act_tv_umbre{
+	width: 15%;
+	height: 14%;
+	background: url(../img/act_ico/tv_umbre.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 53%;
+	left: 48%;
+	animation: tv_umbre 8s infinite linear;
+}
+
+.act_plane_lele{
+	width: 13%;
+	height: 12%;
+	background: url(../img/act_ico/plane_lele.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 8%;
+	left: 40%;
+	animation: plane_lele 3s infinite linear;
+}
+
+.act_relax_man{
+	width: 15%;
+	height: 16%;
+	background: url(../img/act_ico/relax_man.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 58%;
+	left: 86%;
+	animation: relax_man 3s infinite linear;
+}
+
+.act_it_man{
+	width: 17%;
+	height: 18%;
+	background: url(../img/act_ico/itman.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 71%;
+	left: 76%;
+	animation: it_man 4s infinite linear;
+}
+
+.act_boat_man{
+	width: 14%;
+	height: 14%;
+	background: url(../img/act_ico/boat_man.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 68%;
+	left: 65%;
+	animation: boat_man 3s infinite linear;
+}
+
+.act_lele{
+	width: 9%;
+	height: 10%;
+	background: url(../img/act_ico/lele.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 54%;
+	left: 24%;
+}
+
+.act_teacup{
+	width: 11%;
+	height: 15%;
+	background: url(../img/act_ico/teacup.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 59%;
+	left: 31%;
+	animation: dia_lele 3s infinite linear;
+}
+
+.act_boat{
+	width: 13%;
+	height: 17%;
+	background: url(../img/act_ico/boat.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 16%;
+	left: 64%;
+	animation: boat 3s infinite linear;
+}
+
+.act_helico{
+	width: 18%;
+	height: 15%;
+	background: url(../img/act_ico/helico.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 76%;
+	left: 59%;
+	animation: helico 4s infinite linear;
+}
+
+@keyframes act_face{
+	0%{
+		transform: scale(1, 1);
+	}
+	50%{
+		transform: scale(.9, .9);
+	}
+	100%{
+		transform: scale(1, 1);
+	}
+}
+
+@keyframes dia_lele{
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(5%);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+@keyframes tv_umbre{
+	0%{
+		top: 13%;
+	}
+	100%{
+		top: 53%;
+	}
+}
+
+@keyframes plane_lele{
+	0%{
+		top: 4%;
+		left: 45%;
+	}
+	100%{
+		top: 8%;
+		left: 40%;
+	}
+}
+
+@keyframes relax_man{
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(5%);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+@keyframes it_man{
+	0%{
+		top: 71%;
+		left: 76%;
+	}
+	50%{
+		top: 75%;
+		left: 80%;
+	}
+	100%{
+		top: 79%;
+		left: 84%;
+	}
+}
+
+@keyframes boat_man{
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(4%);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+@keyframes boat{
+	0%{
+		left: 64%;
+	}
+	100%{
+		left: 66%;
+	}
+}
+
+@keyframes helico{
+	0%{
+		left: 59%;
+	}
+	100%{
+		left: 66%;
+	}
+}

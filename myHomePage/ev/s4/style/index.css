@@ -1,0 +1,274 @@
+/* reset start */
+html,body,div,h1,h2,h3,h4,h5,h6,span,a,ul,ol,li,form,input,textarea,button{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+}
+
+ul,ol,li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+/* reset end */
+
+/* container */
+.container{
+	width: 100%;
+	height: 100%;
+	/* height: 13.34rem; */
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+/* nav */
+nav{
+	width:100%;
+	height: .78rem;
+	background: url(../img/header.png) no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+}
+
+nav .more-btn{
+	width: 1.24rem;
+	height: .5rem;
+	position: absolute;
+	top: .14rem;
+	right: .09rem;
+}
+
+nav .more-btn img{
+	width: 100%;
+	position: absolute;
+}
+
+nav .more-btn img a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+/* info */
+.signup-info{
+	/* width: 5.51rem;
+	height: 3.36rem; */
+	width: 75%;
+	height: 26%;
+	position: absolute;
+	left: 50%;
+	/* bottom: 1.48rem; */
+	bottom: 11%;
+	/* margin-left: -2.75rem; */
+	margin-left: -37%;
+}
+
+.signup-info .select{
+	width: 100%;
+	/* height: .8rem; */
+	height: 25%;
+	position: absolute;
+	z-index: 9;
+}
+
+.signup-info .select>img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.signup-info .select .sel-menu{
+	width: 100%;
+	/* height: 1.65rem; */
+	height: 200%;
+	position: absolute;
+	top: 90%;
+	left: 0;
+	z-index: 5;
+	display: none;
+}
+
+.signup-info .select .sel-menu img{
+	width: 100%;
+	height: 50%;
+	position: absolute;
+}
+
+.signup-info .select .sel-menu img:first-child{
+	height: 50%;
+	top: 0;
+}
+
+.signup-info .select .sel-menu img:last-child{
+	height: 50%;
+	bottom: 0;
+}
+
+.signup-info .select .sel-menu .pick{
+	width: .34rem;
+	height: .34rem;
+	background: url(../img/pick.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	right: 5%;
+	z-index: 10;
+}
+
+.signup-info .select .sel-menu .up{
+	top: 15%;
+	display: none;
+}
+
+.signup-info .select .sel-menu .down{
+	bottom: 15%;
+	display: none;
+}
+
+.signup-info .phone-num{
+	width: 100%;
+	/* height: .66rem; */
+	height: 23%;
+	position: absolute;
+	/* top: .9rem; */
+	top: 27%;
+}
+
+.signup-info .phone-num .input-num{
+	width: 100%;
+	height: 100%;		
+	font-size: .18rem;
+	position: absolute;
+	border: 0;
+	border-radius: .07rem;
+	padding: .05rem .2rem;
+	outline: none;
+}
+
+.signup-info .code{
+	width: 100%;
+	/* height: .68rem; */
+	height: 21%;
+	position: absolute;
+	/* bottom: .78rem; */
+	bottom: 27%;
+}
+
+.signup-info .code .input-code{
+	/* width: 3.31rem; */
+	width: 55%;
+	height: 100%;
+	font-size: .18rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+	border-radius: .07rem;
+	padding: .05rem .2rem;
+	outline: none;
+}
+
+.signup-info .code .get-code-btn{
+	/* width: 2.06rem; */
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.signup-info .code .get-code-btn img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.signup-info .signup-btn{
+	width: 100%;
+	/* height: .66rem; */
+	height: 25%;
+	position: absolute;
+	bottom: 0;
+}
+
+.signup-info .signup-btn img{
+	width: 101%;
+	height: 100%;
+	position: absolute;
+}
+
+
+
+
+/* introduce */
+.introduce{
+	width: 1.11rem;
+	height: .28rem;
+	position: absolute;
+	left: 50%;
+	bottom: .45rem;
+	margin-left: -.55rem;
+}
+
+.introduce img{
+	width: 100%;
+	position: absolute;
+}
+
+/* intro-detail */
+.intro-detail{
+	width: 100%;
+	/* height: 13.34rem; */
+	height: 100%;
+	background: url(../img/intro-detail.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	display: none;
+}
+
+.intro-detail .intro-detail-btn{
+	width: 1.99rem;
+	height: .63rem;
+	background: url(../img/intro-confirm.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -.99rem;
+	bottom: 8%;
+}
+
+/* input-num-tip */
+.input-num-tip{
+	width: 100%;
+	/* height: 13.34rem; */
+	height: 100%;
+	background: url(../img/input-num-tip.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	display: none;
+}
+
+.input-num-tip .input-num-tip-btn{
+	width: 1.99rem;
+	height: .63rem;
+	background: url(../img/intro-confirm.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -.99rem;
+	bottom: 40%;
+}

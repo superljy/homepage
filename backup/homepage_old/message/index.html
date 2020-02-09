@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>To K.Y.</title>
+    <link rel="shortcut icon" href="../img/dforest.ico">
+    <link rel="bookmark" href="../img/dforest.ico">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/message.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="../index.html">Home</a></li>
+                <li class="active"><a href="javascript:void(0)">Message</a></li>
+                <li><a href="../aboutme/index.html">AboutMe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3>Show Me Your Message</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="content">
+                                <div class="content-form form-group">
+                                    <label for="usr-name">用户名</label>
+                                    <input type="text" placeholder="用户名" id="usr-name" name="usr-name" class="usr-name form-control">
+                                    <label for="usr-message">留下你想说的话</label>
+                                    <textarea name="usr-message" id="usr-message" cols="30" rows="10" placeholder="说出你的话吧" class="usr-message form-control"></textarea>
+                                    <button id="add">Submit</button>
+                                </div>
+                                <div class="message" id="message"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-default back-top">
+                        <span class="glyphicon glyphicon-menu-up" title="回到顶部"></span>
+                    </button>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3>Message List</h3>
+                        </div>
+                        <div class="panel-body">
+                            <table class="table" id="comments">
+                                <thead>
+                                    <tr>
+                                        <th>昵称</th>
+                                        <th>留言内容</th>
+                                        <th>时间</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>abc</td>
+                                        <td>abcdefghi</td>
+                                        <td>2017</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="title">
+                <h1>Message Form</h1>
+                <h4><i>欢迎向我提出宝贵的意见</i></h4>
+            </div> -->
+        </div>
+    </section>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../js/message.js"></script>
+</body>
+</html>

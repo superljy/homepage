@@ -1,0 +1,23 @@
+body{
+    margin:0;
+}
+
+.container{
+    width: 100%;
+    background: #000000;
+}
+
+.container div{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.container div img{
+    width: 100%;
+}
+
+@media screen and (min-width:320px) and (max-width:1200px){
+    .container div{
+        width: 100%;
+    }
+}

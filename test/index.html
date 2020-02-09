@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0
+          ,viewport-fit=cover">
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .bg{
+            width: 9rem;
+            height: 3.347rem;
+            background: url("./images/demo@2x.png") no-repeat;
+            background-size: 100% 100%;
+            margin: 0 auto;
+        }
+        [data-dpr="3"] .bg{
+            background: url("./images/demo@3x.png") no-repeat;
+            background-size: 100% 100%;
+        }
+        input{
+            display: block;
+            width: 80%;
+            height: .5rem;
+            border: 1px solid #ddd;
+            outline: none;
+            border-radius: 5px;
+            margin: 2rem auto;
+            padding: .2rem;
+            font-size: 12px;
+        }
+        [data-dpr="2"] input{
+             font-size: 24px;
+         }
+        [data-dpr="3"] input{
+            font-size: 36px;
+        }
+    </style>
+</head>
+<body>
+<div class="bg"></div>
+<input type="text" placeholder="your name">
+</body>
+</html>

@@ -1,0 +1,622 @@
+/* reset start */
+html,body,div,span,a,ul,li,ol,p,h1,h2,h3,h4,h5,h6,input,button,textarea{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* reset end */
+
+/* header start */
+header{
+    width: 100%;
+    background: #5d4b33;
+}
+
+header .container{
+    position: relative;
+}
+
+header .container .navbar-header{
+    margin-right: 20px;
+}
+
+header .container .navbar-header a{
+    font-size: 30px;
+}
+
+header .container .navbar-header a:hover{
+    color: #fff;
+}
+
+header .navbar-collapse .active{
+    background: #f07818;
+}
+
+/* dropdown-menu start */
+header .container .navbar-nav .dropdown-menu{
+    width: 450px;
+}
+
+header .container .navbar-nav .dropdown-menu ul li{
+    padding: 10px 20px;
+}
+
+header .container .navbar-nav .dropdown-menu ul li.dropdown-title{
+    color: #f07818;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header .container .navbar-nav .dropdown-menu ul li.divider{
+    padding: 0;
+    margin: 0px 5px;
+}
+
+header .container .navbar-nav .dropdown-menu ul li a{
+    color: #888;
+}
+
+header .container .navbar-nav .dropdown-menu ul li a:hover{
+    background: #fff;
+}
+
+
+/* dropdown-menu end */
+
+header .navbar-toggle{
+    border: 1px solid #f07818;
+    background: #f07818;
+    float: none;
+    left: 25%;
+}
+
+header .navbar-toggle .icon-bar{
+    background: #fff;
+}
+
+header .nav>li{
+    text-align: center;
+    border-right: 1px solid #999;
+}
+
+header .nav>li:nth-child(5){
+    border-right: 0;
+}
+
+header .nav li a:hover,header .nav li a:focus{
+    background: #f07818;
+    color: #fff;
+}
+
+header .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #f07818;
+    border-color: #f07818;
+}
+
+header .container .navbar-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .container .navbar-right li{
+    float: left;
+    display: block;
+    height: 50px;
+    border-left: 1px solid #999;
+    position: relative;
+}
+
+header .container .navbar-right li a{
+    display: block;
+    padding: 0 18px;
+    line-height: 50px;
+    
+}
+
+header .container .navbar-right li a:hover,header .container .navbar-right li a:focus{
+    color: #fff;
+}
+
+
+
+header .container .navbar-right li a span{
+    font-size: 18px;
+}
+
+/* navbar-right search start */
+
+header .container .navbar-right li .search-bar{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 51px;
+    right: 0;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 99;
+}
+
+header .container .navbar-right li .search-bar .search-tri{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -15px;
+    right: 18px;
+    border-bottom: 16px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+header .container .navbar-right li .search-bar .search-form{
+    padding: 10px;
+}
+
+header .container .navbar-right li .search-bar .search-form input{
+    width: 124px;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline: 0;
+}
+
+header .container .navbar-right li .search-bar .search-form button{
+    width: 60px;
+    height: 35px;
+    transform: translateX(-4px);
+    background: #f07818;
+    border: 0;
+    color: #fff;
+    outline: 0;
+}
+
+header .container .navbar-right li.search-icon:hover .search-bar{
+    display: block;
+}
+
+/* navbar-right search end */
+
+/* navbar-right usr */
+header .container .navbar-right li .usr-bar{
+    width: 300px;
+    height: 260px;
+    position: absolute;
+    top: 51px;
+    right: 0;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 99;
+}
+
+header .container .navbar-right li .usr-bar .usr-tri{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -15px;
+    right: 18px;
+    border-bottom: 16px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+header .container .navbar-right li .usr-bar .usr-form label{
+    display: block;
+    margin-top: 10px;
+}
+
+header .container .navbar-right li .usr-bar .usr-form input{
+    width: 100%;
+    height: 30px;
+    
+}
+
+header .container .navbar-right li .usr-bar .usr-form input:nth-child(6){
+    width: auto;
+    height: auto;
+}
+
+header .container .navbar-right li .usr-bar .usr-form label:last-child{
+    display: inline;
+}
+
+header .container .navbar-right li .usr-bar .usr-form button{
+    width: 100%;
+    height: 30px;
+    background: #f07818;
+    border: 0;
+    margin-top: 10px;
+    color: #fff;
+}
+
+header .container .navbar-right li .usr-bar .usr-form button:hover{
+    border: 1px solid #f07818;
+    background: #fff;
+    color: #f07818;
+}
+
+header .container .navbar-right li .usr-bar .usr-tip{
+    text-align: center;
+}
+
+header .container .navbar-right li .usr-bar .usr-tip a{
+    display: inline-block;
+    line-height: 0;
+    padding: 0;
+    color: #f07818;
+    margin: 0 5px;
+}
+
+header .container .navbar-right li .usr-bar .usr-tip span{
+    cursor: pointer;
+}
+
+header .container .navbar-right li.usr-icon:hover .usr-bar{
+    display: block;
+}
+
+/* navbar-right usr end */
+
+/* navbar-right cart start */
+header .container .navbar-right li .cart-bar{
+    width: 250px;
+    height: 115px;
+    position: absolute;
+    top: 51px;
+    right: 0;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 99;
+}
+
+header .container .navbar-right li .cart-bar .cart-tri{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -15px;
+    right: 18px;
+    border-bottom: 16px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+header .container .navbar-right li .cart-bar p{
+    font-size: 20px;
+    text-align: center; 
+}
+
+header .container .navbar-right li .cart-bar button{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid #f07818;
+    background: #f07818;
+    color: #fff;
+}
+
+header .container .navbar-right li .cart-bar button:hover{
+    background: #fff;
+    color: #f07818;
+}
+
+header .container .navbar-right li.cart-icon:hover .cart-bar{
+    display: block;
+}
+
+/* navbar-right cart end */
+
+/* 响应式 start */
+
+@media (max-width: 374px) {
+    header .container .navbar-header a{
+        font-size: 18px;
+    }
+    header .container .navbar-right li a{
+        padding: 0 12px;
+    }
+    header .navbar-toggle{
+        left: 10%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 414px) {
+    header .container .navbar-header a{
+        font-size: 22px;
+    }
+    header .container .navbar-right li a{
+        padding: 0 14px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 515px) {
+    header .navbar-toggle{
+        left: 15%;
+    }
+}
+
+@media (min-width: 516px) and (max-width: 766px){
+    header .navbar-toggle{
+        left: 25%;
+    }
+}
+
+@media (max-width: 767px) {
+    header .dropdown-menu>li>a{
+        color: #fff;
+    }
+}
+
+/* header end */
+
+
+/* banner start */
+.banner{
+    width: 100%;
+    height: 400px;
+    background: #f2f6f7;
+    margin-top: -20px;
+}
+
+.banner .left-content{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .left-content .banner-title{
+    color: #5d4b33;
+    font-size: 50px;
+}
+
+.banner .left-content .banner-title span{
+    color: #f07818;
+}
+
+.banner .left-content .banner-content{
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #f07818;
+}
+
+.banner .left-content button{
+    width: 8em;
+    height: 50px;
+    margin-top: 20px;
+    border: 5px solid #5d4b33;
+    color: #5d4b33;
+    background: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.banner .left-content button:hover{
+    color: #f07818;
+    border: 5px solid #f07818;
+}
+
+.banner .right-content{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner .right-content img{
+    width: 50%;
+}
+
+
+/* banner end */
+
+/* gallery start */
+.gallery{
+    margin-top: 100px;
+}
+
+.gallery .line-one{
+    margin-bottom: 20px;
+}
+
+.gallery .pic{
+    position: relative;
+}
+
+.gallery .pic:hover .cover{
+    display: block;
+}
+
+.gallery .pic img{
+    width: 100%;
+}
+
+.gallery .pic .cover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #555;
+    z-index: 2;
+    display: none;
+}
+
+.gallery .pic .cover .cover-tip{
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .8);
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery .pic .cover .cover-tip button:hover{
+    border: 3px solid #f07818;
+    color: #f07818;
+}
+
+.gallery .pic .cover .cover-tip span{
+    color: #fff;
+}
+
+.gallery .pic .cover .cover-tip button{
+    width: 100px;
+    height: 30px;
+    border: 3px solid #fff;
+    color: #fff;
+    background: transparent;
+}
+
+.gallery p{
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.gallery .star-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery .star-price span{
+    color: #999;
+}
+
+.gallery .gallery-content .pic img{
+    border: 1px solid #ddd;
+}
+
+.gallery .gallery-content>div{
+    margin-bottom: 20px;
+}
+
+/* gallery end */
+
+/* subscribe start */
+.subscribe{
+    width: 100%;
+    height: 300px;
+    background: url('../img/slid.jpg') no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-top: 100px;
+}
+
+.subscribe .sub-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe .sub-content h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.subscribe .sub-content form{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.subscribe .sub-content form input{
+    width: 30%;
+    height: 40px;
+    border: 1px solid #555;
+    background: rgba(55,55,55,0.5);
+    padding: 0 10px;
+    color: #fff;
+}
+
+.subscribe .sub-content form input::-webkit-input-placeholder{
+    color: #fff;
+}
+
+.subscribe .sub-content form button{
+    width: 5em;
+    height: 40px;
+    border: 1px solid #f07818;
+    background: #f07818;
+    color: #fff;
+    margin-left: -4px;
+}
+
+.subscribe .sub-content form button:hover{
+    background: transparent;
+    color: #f07818;
+    border: 1px solid #f07818;
+}
+
+
+
+/* subscribe end */
+
+/* footer-bottom start */
+.footer-bottom{
+    width: 100%;
+    background: #f2f6f7;
+}
+
+.footer-bottom .fb-info{
+    padding-top: 100px;
+}
+
+.footer-bottom .fb-info h2{
+    color: #f07818;
+}
+
+.footer-bottom .fb-info ul{
+    margin-top: 20px;
+    height: 205px;
+}
+
+.footer-bottom .fb-info ul li{
+    margin: 10px 0;
+}
+
+.footer-bottom .fb-info ul li a{
+    color: #999;
+}
+
+.footer-bottom .fb-info ul li a:hover{
+    color: #f07818;
+}
+
+
+/* footer-bottom end */
+
+/* footer start */
+footer{
+    width: 100%;
+    height: 50px;
+    background: #5d4b33;
+}
+
+footer p{
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+/* footer end */

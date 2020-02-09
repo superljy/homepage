@@ -1,0 +1,24 @@
+[11-Dec-2017 06:25:10 UTC] PHP Parse error:  syntax error, unexpected 'header' (T_STRING), expecting ',' or ';' in C:\webs\myHomePage\wechat\index.php on line 9
+[11-Dec-2017 06:26:58 UTC] PHP Notice:  Undefined index: HTTP_RAW_POST_DATA in C:\webs\myHomePage\wechat\index.php on line 50
+[12-Dec-2017 14:15:19 UTC] PHP Notice:  Undefined index: nonce in C:\webs\myHomePage\wechat\index.php on line 7
+[12-Dec-2017 14:15:19 UTC] PHP Notice:  Undefined index: timestamp in C:\webs\myHomePage\wechat\index.php on line 9
+[12-Dec-2017 14:15:19 UTC] PHP Notice:  Undefined index: echostr in C:\webs\myHomePage\wechat\index.php on line 10
+[12-Dec-2017 14:15:19 UTC] PHP Notice:  Undefined index: signature in C:\webs\myHomePage\wechat\index.php on line 11
+[12-Dec-2017 14:15:19 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\webs\myHomePage\wechat\index.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\webs\myHomePage\wechat\index.php on line 24
+[12-Dec-2017 14:24:37 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\webs\myHomePage\wechat\index.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\webs\myHomePage\wechat\index.php on line 24
+[13-Dec-2017 11:55:44 PRC] PHP Fatal error:  Uncaught Error: Undefined constant 'n' in C:\webs\myHomePage\wechat\index.php:67
+Stack trace:
+#0 C:\webs\myHomePage\wechat\index.php(12): wechatCallbackapiTest->responseMsg()
+#1 {main}
+  thrown in C:\webs\myHomePage\wechat\index.php on line 67
+[18-Dec-2017 18:11:55 PRC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK) in C:\webs\myHomePage\wechat\index.php on line 101
+[18-Dec-2017 18:11:59 PRC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK) in C:\webs\myHomePage\wechat\index.php on line 101
+[18-Dec-2017 18:12:03 PRC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK) in C:\webs\myHomePage\wechat\index.php on line 101
+[18-Dec-2017 18:13:24 PRC] PHP Notice:  Undefined variable: content in C:\webs\myHomePage\wechat\index.php on line 128
+[18-Dec-2017 18:13:24 PRC] PHP Notice:  Undefined variable: content in C:\webs\myHomePage\wechat\index.php on line 131

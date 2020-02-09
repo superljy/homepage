@@ -1,0 +1,332 @@
+/*reset start */
+html,body,div,h1,h2,h3,h4,h5,h6,a,img,span,ul,ol,li,p,label,form,input,textarea,nav,section,header,footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "微软雅黑";
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+
+p{
+    text-align: center;
+}
+
+input,a,button {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+/* reset end */
+
+/* main set */
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper{
+    height: 100%;
+    position: relative;
+}
+
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    background: url(../images/bg.png) no-repeat;
+    background-size: cover;
+}
+
+.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9,.p10,.p11,.p12,.p13{
+    position: relative;
+}
+/* main set end */
+
+/* bgm-icon */
+.bgm_ico{
+    width: 0.96rem;
+    height: 6%;
+    background: url(../images/bgm.svg) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 3;
+}
+
+.bgm_ico_ani{
+    animation: bgm_ico_ani 4s infinite linear;
+}
+
+@keyframes bgm_ico_ani{
+    0%{
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+    }
+    50%{
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+/* bgm-icon end */
+
+/* arrow */
+.arrow{
+    width: 100%;
+    height: 20px;
+}
+
+.arrow span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    margin-left: -10px;
+    animation: arrow 1s linear infinite alternate;
+    -webkit-animation: arrow 1s linear infinite alternate;
+    z-index: 2;
+}
+
+@keyframes arrow {
+    from{
+        bottom: 3%;
+    }
+    to{
+        bottom: 5%;
+    }
+}
+/* arrow end */
+
+/* p1 */
+.p1 .logo{
+    width: 70%;
+    height: 45%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -35%;
+}
+
+.p1 .p1_title{
+    width: 80%;
+    text-align: center;
+    font-size: .7rem;
+    font-weight: bold;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-left: -40%;
+    color: #7d5825;
+}
+
+.p1 .p1_title_fu{
+    width: 80%;
+    font-size: .5rem;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-left: -40%;
+    text-align: center;
+}
+
+.p1 .tam{
+    text-align: center;
+    font-size: .5rem;
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+}
+/* p1 end */
+
+/* p2 */
+.p2 .p2_title{
+    text-align: center;
+    margin-top: 10%;
+    font-size: .7rem;
+}
+
+.p2 .p2_content{
+    width: 80%;
+    height: 45%;
+    margin: 5% auto;
+    font-size: .36rem;
+    line-height: 1.75;
+    letter-spacing: 1.5px;
+}
+
+.p2 .p2_bottom{
+    width: 80%;
+    height: 25%;
+    margin: 0 auto;
+}
+/* p2 end */
+
+/* p3 */
+.p3 .p3_title{
+    text-align: center;
+    margin-top: 10%;
+    font-size: .7rem; 
+}
+
+.p3 .p3_banner{
+    width: 80%;
+    height: 25%;
+    margin: 10% auto;
+}
+
+.p3 .p3_content{
+    width: 80%;
+    height: 25%;
+    font-size: .4rem;
+    line-height: 1.75;
+    letter-spacing: 1.5px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+/* .p3 .p3_bottom{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+} */
+
+.p3 .p3_bottom_l{
+    margin-right: 2%;
+}
+/* p3 end */
+
+/* p4 */
+.p4 .p4_title{
+    text-align: center;
+    margin-top: 10%;
+    font-size: .7rem; 
+}
+
+.p4 .p4_pic{
+    width: 50%;
+    height: 35%;
+    margin: 5% auto 0;
+}
+
+.p4 .p4_content{
+    width: 80%;
+    margin: 5% auto 0;
+    font-size: .4rem;
+    line-height: 1.75;
+    letter-spacing: 1.5px;
+}
+/* p4 end */
+
+/* p5 */
+.p5 .p5_title{
+    text-align: center;
+    margin-top: 10%;
+    font-size: .7rem; 
+}
+
+.p5 .p5_content{
+    width: 80%;
+    height: 40%;
+    margin: 10% auto 0;
+}
+
+.p5 .p5_content li{
+    margin: 2% 0;
+    font-size: .5rem;
+    letter-spacing: 1.5px;
+    list-style: square;
+}
+
+.p5 .p5_bottom{
+    width: 100%;
+    height: 30%;
+}
+
+.p5 .p5_bottom .add{
+    font-size: 14px;
+}
+/* p5 end */
+
+/* p6 报名 */
+.p6 .p6_title{
+    margin-top: 10%;
+    text-align: center;
+    font-size: .7rem; 
+}
+
+.p6 .p6_form{
+    width: 80%;
+    height: 50%;
+    margin: 10% auto 0; 
+}
+
+.p6 .p6_form input{
+    width: 100%;
+    height: 15%;
+    margin-bottom: 5%;
+    border-radius: 3px;
+    outline: 0;
+    padding: 2%;
+    font-size: 14px;
+}
+
+.p6 .p6_form .submit{
+    width: 100%;
+    height: 15%;
+    border-radius: 3px;
+    border: 0;
+    background: rgb(227, 179, 110);
+    color: #fff;
+    font-size: 14px;
+}
+
+.p6 .p6_bottom{
+    width: 80%;
+    margin: 10% auto 0;
+}
+
+.p6 .p6_bottom p{
+    letter-spacing: 1.5px;
+    line-height: 1.75;
+    font-size: .4rem;
+}
+
+.p6 #message{
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    margin-top: 5%;
+}
+/* p6 end */
